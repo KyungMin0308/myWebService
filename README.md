@@ -1,7 +1,5 @@
-# myWebService
+## **[스프링 부트와 AWS로 혼자 구현하는 웹 서비스]를 참고한 Spring Boot 웹 프로젝트**
 
-### **※ [스프링 부트와 AWS로 혼자 구현하는 웹 서비스]를 참고한 Spring Boot 웹 프로젝트 실습**
----
 ### 1일차[프로젝트 생성]
 * https://daylifecoding.tistory.com/30
 
