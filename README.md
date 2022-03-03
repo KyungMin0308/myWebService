@@ -23,3 +23,6 @@
 
 ### 7일차[AWS RDS 사용]
 * https://daylifecoding.tistory.com/44
+
+### 8일차[EC2에 프로젝트 배포]
+* https://daylifecoding.tistory.com/45
