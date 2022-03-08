@@ -26,13 +26,23 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-
     bucket: mywebservice-springboot-build
     region: ap-northeast-2
     skip_cleanup: true
     acl: private
     local_dir: deploy
     wait-until-deploy: true
+
+  - provider: codedeploy
+    access_key_id: $AWS_ACCESS_KEY
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: mywebservice-springboot-build
+    key: mywebservice-springboot2-webservice.zip
+    bundle_type: zip
+    application: mywebservice-springboot2-webservice
+    deployment_group: mywebservice-springboot2-webservice-group
+    region: ap-northeast-2
+    wait-until-deployed: true
 
 #CI 실행 완료 시 메일로 열람
 notifications:
