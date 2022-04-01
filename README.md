@@ -26,3 +26,7 @@
 
 ### 8. EC2에 프로젝트 배포
 * https://daylifecoding.tistory.com/45
+
+### 9. 배포 자동화(Travis CI)
+* https://daylifecoding.tistory.com/46
+* https://daylifecoding.tistory.com/47
