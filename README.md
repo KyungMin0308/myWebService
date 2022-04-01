@@ -1,6 +1,6 @@
 # myWebService
 
-## **※ [스프링 부트와 AWS로 혼자 구현하는 웹 서비스]를 참고한 Spring Boot 웹 프로젝트**
+## **※ [스프링 부트와 AWS로 혼자 구현하는 웹 서비스] 실습 Spring Boot 웹프로젝트**
 
 ### 1. 프로젝트 생성
 * https://daylifecoding.tistory.com/30
@@ -30,3 +30,6 @@
 ### 9. 배포 자동화(Travis CI)
 * https://daylifecoding.tistory.com/46
 * https://daylifecoding.tistory.com/47
+
+### 10. 무중단 배포(Ngnix)
+* https://daylifecoding.tistory.com/50
